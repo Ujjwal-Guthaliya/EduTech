@@ -1,0 +1,205 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9; /* Light grey background for a subtle look */
+    color: #333; /* Dark grey text for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0056b3; /* Deep blue background */
+    color: #ffffff; /* White text for contrast */
+    padding: 20px 40px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* White text links */
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #009688; /* Teal background */
+    color: white;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* More pronounced shadow for the hero section */
+}
+
+.featured-blogs {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* White background for blog posts */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Consistent shadow styling */
+}
+
+.blog-post {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #0056b3; /* Blue accent on the side */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #00264d; /* Even darker blue for footer */
+    color: #ffffff;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1); /* Shadow to lift the footer visually */
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.hero {
+    animation: fadeIn 2s;
+}
+.contact-form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 30px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* Adding a subtle shadow */
+    border-radius: 8px; /* Rounded corners for the form */
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Rounded corners for input fields */
+}
+
+.contact-form button {
+    background-color: #0056b3; /* Deep blue background */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px; /* Rounded corners for the button */
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #004494; /* Slightly darker blue on hover */
+}
+.course-list {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* White background for course listings */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Consistent shadow styling */
+}
+
+.course {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #009688; /* Teal accent on the side for courses */
+}
+
+.course h3 {
+    color: #0056b3; /* Deep blue for course titles */
+}
+
+.course a {
+    text-decoration: none;
+    color: #007bff; /* Blue link color */
+    font-weight: bold;
+}
+#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+}
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adjust color and opacity to your liking */
+    z-index: -99;
+}
+/* About Page Specific Styles */
+.content {
+    background-color: #ffffff; /* White background for better readability */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; /* Limits the width of the content for better readability */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adds subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.content h2 {
+    color: #0056b3; /* Deep blue to match the header */
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 16px; /* Slightly larger font for better readability */
+    line-height: 1.6; /* Improved line spacing */
+}
+/* Blog Page Specific Styles */
+.blog-list {
+    background-color: #f4f4f9; /* Light grey background for a subtle look */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1000px; /* Wider width for blog listing */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.blog-post {
+    background-color: #ffffff; /* White background for each post */
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #009688; /* Teal accent on the side */
+    border-radius: 4px; /* Rounded corners for each post */
+}
+
+.blog-post h3 {
+    color: #0056b3; /* Deep blue for consistency with the site's theme */
+}
+
+.blog-post p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.blog-post a {
+    text-decoration: none;
+    color: #007bff; /* Blue link color */
+    font-weight: bold;
+}
+
+
